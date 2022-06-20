@@ -1,0 +1,15 @@
+/* 우선순위 정리
+!important > style 속성(html에서 직접 지정) > id > class > 태그 >  부모 요소에게 상속된 속성
+.css 파일보다 .html내의 <style>태크가 우선적용 index.html(<style></style> > style.css)
+html 내부에서 html을 이용해 지정된 속성보다 css가 우선적용
+*/
+h2 {
+    color: #ff5577;
+}
+.highlight {
+    border:solid;
+}
+#profile {
+    border:solid;
+    border-color: #bbbbbb;
+}
