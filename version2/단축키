@@ -1,0 +1,7 @@
+cmd+k,v HTML preview cmd+shift+v
+cmd+c,k 주석 cmd+/
+cmd+k,s 단축키 문서
+control+shift+물결 새 터미널
+option+방향키 줄 옮기기
+option+shift+방향키 선택한 줄 아래에 복붙
+cmd+opt+좌우 탭 전환
