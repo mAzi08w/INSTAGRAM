@@ -1,0 +1,46 @@
+<p style="border: none">none</p>
+<p style="border: dotted">dotted</p>
+<p style="border: dashed">dashed</p>
+<p style="border: solid">solid</p>
+<p style="border: double;">double</p>
+<p style="border: inset;">inset</p>
+<p style="border: outset;">outset</p>
+
+<style>
+    #first{
+        border: solid;
+        border-top-width: 1px;
+        border-left-width: 2px;
+        border-right-width: 10px;
+        border-bottom-width: 4px;
+        border-color: #ff5577;
+    }
+    #second{
+        border: solid;
+        border-width: 3px;
+        border-top-color: blue;
+        border-left-color: red;
+        border-right-color: orange;
+        border-bottom-color: yellow;
+    }#third{
+        border:#ff5577 10px double;
+        border-radius: 5px;
+    }
+    img{
+        width:200px;
+        height:200px;
+        border:solid #ff5577 5px;
+        border-radius: 50%;
+    }
+    div img{
+        width:200px;
+        height:200px;
+        border:solid #ff5577 5px;
+        border-radius: 10px 50px 80px 50%;
+    }
+</style>
+<p id="first">1px</p>
+<p id="second">3px</p>
+<p id="third">shortcut</p>
+<img src="image/profile.jpeg"/>
+<div><img src="image/profile.jpeg"/></div>

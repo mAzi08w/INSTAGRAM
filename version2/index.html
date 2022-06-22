@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"/>
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
     </head>
     <body>
 <!-- 상단바 -->
-        <div>
+        <div id="top">
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"/>
             <input type="search" value="검색"/>
+            <div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
 
 <!-- 프로필 영역 -->
         <div id="profile">
-            <div>
-                <img src="image/profile.jpeg"width="100px"/>
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/profile.jpeg"/>
             </div>
-            <div>
-                <h2>mazi08w</h2>
+            <div id="profile_info">
+                <div id="id">mAzi08w <i class="fas fa-cog"></i></div>
                 <button>
                     프로필 편집
                 </button>
@@ -38,57 +45,68 @@
         </div>
 
 <!-- 하이라이트 -->
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div>
-                    <img src="image/hl 1.jpeg"height="70px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 1.jpeg"/>
                 </div>
                 <div>
                     🥳
                 </div>
             </div>
             <div class="highlight">
-                <div>
-                    <img src="image/hl 2.jpeg"height="70px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="https://t1.daumcdn.net/cfile/tistory/24132B4C57AA931D05"/>
                 </div>
                 <div>
                     😝
                 </div>
             </div>
+            <div><!-- 하이라이트 옆 빈 공간 --></div>
         </div>
 
 <!-- 상태 표시줄 -->
-        <div>
-            <div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br/>
                 0
             </div>
-            <div>
+            <div class="stat">
                 팔로워<br/>
                 44
             </div>
-            <div>
+            <div class="stat">
                 팔로우<br/>
                 9
             </div>
         </div>
         
 <!-- 아이콘 -->
-        <div>아이콘</div>
+        <div id="sub_icons">
+            <div class="selected"><i class="fas fa-border-all"></i></div>
+            <div><i class="fas fa-film"></i></div>
+            <div><i class="fas fa-play-circle"></i></div>
+            <div><i class="fas fa-bookmark"></i></div>
+            <div><i class="fas fa-user-tag"></i></div>
+        </div>
         
 <!-- 썸네일 -->
         <div>
-            <img src="image/thumbnail/1.jpeg"width=32%/>
-            <img src="image/thumbnail/2.jpeg"width=32%/>
-            <img src="image/thumbnail/3.jpeg"width=32%/>
-            <img src="image/thumbnail/4.jpeg"width=32%/>
-            <img src="image/thumbnail/5.jpeg"width=32%/>
-            <img src="image/thumbnail/6.jpeg"width=32%/>
-            <img src="image/thumbnail/7.jpeg"width=32%/>
-            <img src="image/thumbnail/8.jpeg"width=32%/>
-            <img src="image/thumbnail/9.jpeg"width=32%/>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnail/1.jpeg" class="thumbnail"/>
+                <img src="image/thumbnail/2.jpeg" class="thumbnail"/>
+                <img src="image/thumbnail/3.jpeg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnail/4.jpeg" class="thumbnail"/>
+                <img src="image/thumbnail/5.jpeg" class="thumbnail"/>
+                <img src="image/thumbnail/6.jpeg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnail/7.jpeg" class="thumbnail"/>
+                <img src="image/thumbnail/8.jpeg" class="thumbnail"/>
+                <img src="image/thumbnail/9.jpeg" class="thumbnail"/>
+            </div>
         </div>
     </body>
 </html>
-
-ndrks
