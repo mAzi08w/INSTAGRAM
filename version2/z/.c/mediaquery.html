@@ -1,0 +1,35 @@
+<style>
+    @media (max-width:600px){ /* 최대 600px까지  모바일*/
+        p{
+            background-color: #ff5577;
+            color:#bbbbbb;
+        }
+        .desktop{
+            display: none;
+        }
+        .mobile{
+            display: block;
+        }
+    }
+    @media (min-width:600px){ /* 최소 600px부터  데스크탑*/
+        p{
+            background-color: #bbbbbb;
+            color: #ff5577;
+        }
+        .desktop{
+            display: block;
+        }
+        .mobile{
+            display: none;
+        }
+    }
+    p{
+        height: 25vw;
+        font-size: 7vw;
+    }
+</style>
+<img class="desktop" src="image/profile.jpeg"/>
+<p>
+    how does the background look like?    
+</p>
+<img class="mobile" src="image/hl 1.jpeg"/>
