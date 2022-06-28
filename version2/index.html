@@ -3,12 +3,9 @@
     <head>
         <link href="style.css" rel="stylesheet"/>
         <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
     </head>
     <body>
-        <script>
-            console.log("test")
-            alert("how is your day?")
-        </script>
 <!-- 상단바 -->
         <div id="top">
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"/>
@@ -27,7 +24,10 @@
                 <img class="circle_pic" src="image/profile.jpeg"/>
             </div>
             <div id="profile_info">
-                <div id="id">mAzi08w <i class="fas fa-cog"></i></div>
+                <div id="id">
+                    <span>mAzi08w</span>
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>
                     프로필 편집
                 </button>
@@ -37,11 +37,12 @@
 <!-- 소개글 -->
         <div>
             <p>
-                <strong>
-                    Minjae Kyung
-                </strong>
+                <strong id="userInfo">
+                    Minjae_Kyung
+                </strong><br/>
+                <span id="summary">학생</span>
             </p>
-            <p>
+            <p id="profileDetail">
                 <a href="https://github.com/mAzi08w">
                     mAzi08w.github.io
                 </a>

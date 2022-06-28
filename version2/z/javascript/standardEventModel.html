@@ -1,0 +1,19 @@
+<input type="button" value="button"/>
+<script>
+    let button = document.querySelector("input")
+    button.addEventListener("click", 
+        function(e){
+            alert("clicked!")
+        }
+    )
+</script>
+
+<div><input/></div>
+<script>
+    let b = document.querySelector("div input")
+    b.addEventListener("input", 
+        function(e){
+            console.log(e.target.value)
+        }
+    )
+</script>

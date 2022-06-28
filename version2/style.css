@@ -1,6 +1,7 @@
 body{
     font-size: 3vw;
 }
+
 .thumbnail_grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -100,8 +101,8 @@ button{
     margin-top: auto;
     margin-bottom: auto;
 
-    /* height: 10vw;
-    width:auto; */
+    /* height: 100%; */
+    /* width:auto; */
     object-fit: contain;
 }
 
